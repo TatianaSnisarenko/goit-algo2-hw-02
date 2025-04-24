@@ -121,12 +121,12 @@ def test_printing_optimization():
     print(f"Порядок друку: {result1['print_order']}")
     print(f"Загальний час: {result1['total_time']} хвилин")
 
-    print("\\nТест 2 (різні пріоритети):")
+    print("\nТест 2 (різні пріоритети):")
     result2 = optimize_printing(test2_jobs, constraints)
     print(f"Порядок друку: {result2['print_order']}")
     print(f"Загальний час: {result2['total_time']} хвилин")
 
-    print("\\nТест 3 (перевищення обмежень):")
+    print("\nТест 3 (перевищення обмежень):")
     result3 = optimize_printing(test3_jobs, constraints)
     print(f"Порядок друку: {result3['print_order']}")
     print(f"Загальний час: {result3['total_time']} хвилин")
